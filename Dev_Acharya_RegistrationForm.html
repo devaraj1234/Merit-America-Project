@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registration Form</title>
+</head>
+<body>
+	<h1> Please Register</h1>
+	<p> All the fields are mandatory</p>
+	
+	<form action="process.php" method="get">
+		<label for="first_name"> First Name:</label>
+		<input type="text" id="first_name" name="first_name">
+
+		<label for="last_name"> Last Name:</label>
+		<input type="text" id="last_name" name="last_name"><br><br>
+
+		<label for="address"> Address:</label>
+		<input type="text" id="address" name="address"><br><br>
+
+		<label for="phone_no">Phone:</label>
+		<input type="text" id="phone_no" name="phone_no"><br><br>
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email"><br>
+
+		<p> Please selcet your gender:</p>
+		<label for="male"></label>
+		<input type="radio" id="male" name="gender" value="male">Male
+
+		<label for="female"></label>
+		<input type="radio" id="female" name="gender" value="female">Female
+
+		<label for="decline"></label>
+		<input type="radio" id="decline" name="gender" value="decline">Prefer not to say<br><br>
+
+		<label for="birthday">Date of Birth:</label>
+		<input type="date" id="birthday" name="birthday">
+
+		<p>Please select your answer:</p> 
+		<select name="question">
+			<option value="question1">What is your favorite color?</option>
+		</select><br><br>
+		<label id="answer">Answer:</label>
+		<select name="answer">
+			<option value="answer1">Red</option>
+			<option value="answer2">Green</option>
+			<option value="answer3">Yellow</option>
+			<option value="answer4">Purple</option>
+			<option value="answer5">Blue</option>
+			<option value="answer6">Not in list</option>
+		</select>
+
+
+		<p> Write a short description about yourself:</p>
+		<textarea name="description"></textarea><br><br>
+
+		<label for="username">User Name:</label>
+		<input type="text" id="username" name="username"><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+
+		<label for="confirm_password">Confirm Password:</label>
+		<input type="password" id="confirm_password" name="confirm_password"><br><br>
+
+		<input type="submit" value="Click here to register" name="submit">
+	</form>
+
+</body>
+</html>
