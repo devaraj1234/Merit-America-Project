@@ -1,0 +1,181 @@
+#container{
+	width: 960px;
+	background-color: #4E2F2F;
+	background-image: radial-gradient(#817878, #4E2F2F);
+	margin: auto;
+	font-family: arial;
+}
+
+#header{
+	position: block;
+	height: 30px;
+	background-color: #EEE8E8;
+}
+	.headerName{
+		display: inline-block;
+		position: relative;
+		margin: 2px 0px 2px 10px;
+		font-family: cursive;
+	}
+
+	.headerTitle{
+		display: inline-block;
+		position: relative;
+		margin: 2px 0px 2px 550px;
+	}
+
+.profilePicture{
+	height: 230px;
+	width: 350px;
+	display: inline-block;
+	margin: 20px;
+	border: 3px solid #C8C1C1;
+}
+
+#aboutJayne{
+	background-color: white;
+	width: 540px;
+	height: 230px;
+	color: black;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 0px 0px 0px;
+}
+
+	.about{
+		background-color: #9B9999;
+		color: white;
+		padding: 10px;
+		margin: 0px;
+	}
+
+	.aboutText{
+		margin-left: 10px;
+	}
+
+	.content{
+		margin: 10px 10px 0px 10px;
+		font-size: 14px;
+	}
+
+/*#lowerContent{
+	vertical-align: top;
+	background-color: gray;
+	display:block;	
+}
+*/
+	.La_mode{
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		width: 290px;
+		margin: 0px 20px 0px 20px;
+	}
+
+	.Family_Contacts{
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		width: 290px;	
+	}
+
+	.fiveEleven{
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		width: 290px;
+		margin: 0px 20px 0px 20px	
+	}
+
+	.lowerContentHeading{
+		background-color: #9B9999;
+		color: white;
+		padding: 5px;
+		margin: 0px;
+	}
+
+	.lowerContentImage{
+		width: 290px;
+		border-collapse:collapse;
+		margin: 0px;
+	}
+
+	.lowerBoxes{
+		background-color: white;
+		height: 325px;
+		margin: 0px;
+	}
+
+	.lowerContent{
+		text-align: justify;
+		margin: 0px 5px 0px 5px;
+		font-size: 90%;
+	}
+
+	.technologies{
+		background-color: white;
+		margin: 0px;
+	}
+
+	.technologiesHeader{
+		background-color: #9B9999;
+		color: white;
+		padding: 5px;
+		margin: 0px;
+	}
+
+	.technologies li{
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	.technologiesImageList{
+		height: 40px;
+		width: 40px;
+		display: inline-block;
+	}
+
+	.submitBox{
+		text-align: center;
+		margin: 0px
+		padding-top: 0px;
+	}
+
+	.submitButton{
+		background-color: green;
+		color: white;
+		text-align: center;
+		font-weight: bold;
+		border-radius: 5px;
+		margin: 0px 0px 20px 0px;
+	}
+
+#footer{
+	text-align: center;
+	display: block;
+	background-color: #E6E3E3;
+
+}
+	.contactDetails{
+		font-size: 11px
+
+	}
+	.icon{
+		height: 15px;
+		width: 15x;
+		display: inline-block;
+		margin: 0px;
+	}
+
+	.social-icons li{
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	.social-link{
+		display: inline-block;
+		padding: 0px;
+		color: black;
+		font-size: 11px;
+		
+	}
