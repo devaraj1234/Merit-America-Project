@@ -1,0 +1,186 @@
+#container{
+	background-color: #18486C;
+	width: 970px;
+	margin: auto;
+}
+
+#header{
+	height: 110px;
+	display: block;
+}
+	
+	.logo{
+		height: 110px;
+		width: 350px;
+		display: inline-block;
+	}
+
+	.searchBox{
+		width: 300px;
+		height: 100px;
+		vertical-align: top;
+		display: inline-block;
+		padding: 10px;
+		margin: 0px 0px 0px 200px
+	}
+	
+	.textSize{
+		display: inline-block;
+		color: white;
+		font-size: 11px;
+		margin-left: 175px;
+
+	}
+
+	.pipeline{
+		color: black;
+	}
+	
+	.textlink{
+		color: yellow;
+	}
+	
+	.searchForm{
+		background-color: #414548;
+		text-align: center;
+		vertical-align: top;
+		height: 40px;
+		width: 250px;
+		margin-left: 120px;
+		border-radius: 5px;
+		
+		box-shadow: 5px 5px 5px;
+	}
+
+	.search{
+		text-align: center;
+		height: 25px;
+		border-radius: 5px
+
+	}
+
+	.linkgo{
+		background-color: #18486C;
+		text-align: center;
+		height: 25px;
+		border-radius: 5px;
+		
+	}
+
+#topbar{
+	width: 850px;
+	margin: 0px 50px 0px 50px;
+}
+	
+	.navigationBar{
+		background-color: #4682b4;
+		width: 850px;
+		height: 40px;
+		border-radius: 5px;
+		box-shadow: 3px 3px 3px;
+		text-align: center;
+	}
+
+	.navigationLink{
+		color: white;
+		font-size: 20px;
+		margin: 10px 20px;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+#sideBox{
+	width: 300px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+	.listForLink{
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.linkcontent{
+		color: white;
+		font-size: 12px;
+		display: inline-block;
+		margin: 3px;
+	}
+#mainContent{
+	width: 470px;
+	display: inline-block;
+	text-align: center;
+}
+
+	.content{
+		color: white;
+		font-size: 12px;
+	}
+
+	.highLight{
+		color: yellow;
+		margin: 10px;
+	}
+
+	.zenOfPython{
+		color: white;
+		margin-top: 10px;
+	}
+
+#middle-box{
+	background-color: white;
+	padding: 10px 0px 0px 70px;
+	
+}
+	.centerBoxes{
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		border-top: 3px solid skyblue;
+		width: 400px;
+		text-align: center;
+		margin-right: 10px;
+		font-size: 12px;
+	}
+
+	.centerBoxes h3{
+		margin: 2px;
+	}
+
+	.centerBoxes p{
+		margin: 2px;
+	}
+
+	.link{
+		list-style-type: square;
+		margin: 2px;
+	}
+
+	.linkList{
+		text-decoration: none;
+		color: skyblue;
+		padding-right: 150px;
+	}
+
+	.pythonPackageLink{
+		text-decoration: none;
+		color: skyblue;
+	}
+
+#footerBar{
+	height: 80px;
+	display: block;
+	text-align: center;
+}
+	.footerLink{
+		color: white;
+		display: inline-block;
+		text-decoration: none;
+		margin: 30px 50px 0px 0px;
+	}
+
+	.copyright{
+		color: white;
+		font-size: 8px;
+
+	}
