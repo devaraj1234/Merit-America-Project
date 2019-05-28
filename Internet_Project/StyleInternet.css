@@ -1,0 +1,264 @@
+#container{
+	width: 970px;
+	margin: auto;
+	padding: 0px;
+	font-family: arial;
+}
+
+#header img{
+	display: inline-block;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+}
+
+#header h1{
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 0px 0px 75px
+}
+
+#header span{
+	color: #2F86C9;
+}
+
+#header h2{
+	display: block;
+	background-image: linear-gradient(#0F63A4, #4F7EA2, #0F63A4);
+	vertical-align: top;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+}
+
+#mainBody{
+	vertical-align: top;
+	display: inline-block;
+	width: 970px;
+	background-image: linear-gradient(#D6D6D6, white, white);
+}
+
+#side-box{
+	width: 200px;
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+	#side-box h5{
+		margin: 15px 0px 15px 0px;
+	}
+	
+	.internetColor{
+		color: red;
+	}
+
+	#side-box p{
+		font-weight: bold;
+		font-size: 14px;
+		margin-bottom: 20px;
+		margin: 0px;
+	}
+
+	.sideBarFontColor{
+		color: #2F86C9;
+	}
+
+	.Button{
+		list-style-type: none;
+		text-align: center;	
+		border-bottom: solid 1px silver;
+	}
+
+	.watchVideo{
+		background-color: #2F86C9;
+		padding: 5px;
+		border: solid 1px silver;
+		border-radius: 7px;
+		box-shadow: 5px;
+		font-size: 14px;
+		margin: 5px 10px 3px 0px;
+	}
+
+	.moreResources{
+		background-color: orange;
+		padding: 5px;
+		border: solid 1px silver;
+		border-radius: 7px;
+		font-size: 14px;
+		box-shadow: 5px;
+		margin: 0px 10px 25px 0px;
+	}
+
+	.ButtonLink{
+		color: white;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.sideBarBackgroundImage{
+		width: 200px;
+		height: 240px;
+		background-image: url("ad_background.png");
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.sideBarBackgroundImage p{
+		font-weight: bold;
+		font-size: 24px;
+		color: white;
+	}
+
+	.sideBarBackgroundImage img{
+		height: 120px;
+		width: 80px;
+		margin: 10px;
+	}
+
+	.sideBarBackgroundImage li{
+		list-style-type: none;
+		text-align: center;
+		background-color: #00FFFF;
+		padding: 5px;
+		border-radius: 5px;
+		margin: 0px 20px 20px 20px;
+	}
+
+	.sideBarBackgroundImage a{
+		font-weight: bold;
+		color: white;
+		text-decoration: none;
+	}
+	.sideBarBackgroundImage span{
+		font-size: 10px;
+	}
+
+#mainpage{
+	width: 720px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+	.topBar{
+		border-bottom: solid 1px silver;
+	}
+
+	.home{
+		display: inline-block;
+		vertical-align: top;
+		height: 20px;
+		width: 20px;
+		margin: 10px 0px 0px 0px;
+	}
+
+	.DNS{
+		display: inline-block;
+		vertical-align: top;
+		color: #0F63A4;
+		margin: 15px 0px 0px 0px;
+	}
+
+	.phone{
+		height: 40px;
+		width: 40px;
+		margin: 5px 0px 0px 450px;
+		display: inline-block;
+	}
+
+	.contactDetail{
+		width: 160px;
+		height: 65px;
+		font-size: 9px;
+		display: inline-block;
+		margin: 5px 0px 0px 0px;
+
+	}
+
+	.contactNumber{
+		font-size: 24px;
+		font-weight: bold;
+		color: rgb(37, 193, 221);
+	}
+
+	#mainpage h3{
+		margin: 2px;
+		color: #0F63A4;
+	}
+
+	.firstLine{
+		margin: 2px;
+		font-size: 14px;
+	}
+
+	#mainpage ul{
+		margin: 2px;
+	}
+
+	#mainpage li{
+		font-size: 14px;
+		margin: 2px;
+	}
+
+	.fontColor{
+		color: rgb(37, 193, 221);
+	}
+
+	.wordLink{
+		color: rgb(37, 193, 221);
+		text-decoration: none;
+	}
+
+	.boldFont{
+		font-weight: bold;
+	}
+
+	.middle-image{
+		display: block;
+ 		margin: auto;
+		height: 130px;
+		width: 260px;
+	}
+
+	#mainpage ol{
+		margin: 2px;
+	}
+
+#lower-box{
+	display: inline-block;
+	width: 700px;
+	margin: 15px;
+	border: solid 5px #00FFFF;
+	border-bottom-style: none;
+}
+	
+	#lower-box img{
+		display: inline-block;
+		margin: 10px;
+		height: 100px;
+		width: 100px;
+	}
+
+	.lowerBoxContent{
+		vertical-align: top;
+		display: inline-block;
+		width: 550px;
+		margin: 10px 0px 0px 5px;
+	}
+
+	.lowerBoxContent h4{
+		margin: 0px;
+		color: #0F63A4;
+	}
+
+	.lowerBoxContent p{
+		font-size: 14px;
+		margin: 2px;
+	}
+
+	.click_here{
+		text-decoration: none;
+		color: rgb(37, 193, 221);
+	}
+
+	
